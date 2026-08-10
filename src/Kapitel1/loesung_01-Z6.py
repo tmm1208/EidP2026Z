@@ -1,0 +1,25 @@
+# Aufgabe 01-Z6: Bewerbungsanschreiben-Generator
+# Musterlösung
+
+name = input("Dein Name: ")
+stelle = input("Angestrebte Stelle: ")
+unternehmen = input("Name des Unternehmens: ")
+staerke = input("Deine groesste Staerke: ")
+
+print()
+print("-" * 40)
+print("Sehr geehrte Damen und Herren,")
+print()
+print(f"hiermit bewerbe ich mich, {name},")
+print(f"auf die ausgeschriebene Stelle als {stelle}")
+print(f"bei der {unternehmen}.")
+print()
+print(f"Ich bringe ausgepragte {staerke} mit")
+print("und bin ueberzeugt, damit einen wertvollen Beitrag")
+print("in Ihrem Team leisten zu koennen.")
+print()
+print("Ich freue mich auf Ihre Rueckmeldung.")
+print()
+print("Mit freundlichen Gruessen,")
+print(name)
+print("-" * 40)
